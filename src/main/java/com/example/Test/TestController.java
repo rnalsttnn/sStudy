@@ -12,7 +12,7 @@ public class TestController {
 
         model.addAttribute("hamburger", hbg);
         model.addAttribute("hamburger2", hbg2);
-
+        model.addAttribute("hamburger3", hbg2);
         return "king";
     }
 
